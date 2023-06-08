@@ -1,0 +1,10 @@
+veritabanı yedeğini alma 
+
+Backup Database OrnekDb To Disk ='D:\OrnekDbYedek.bak' --dosya yolunu formatını .bak şekinde almayı unutma 
+
+tablodaki tün verileri Temizleme
+
+Truncate Table personel
+
+
+Drop Table Personel //tabloyu siler DLL KOMUTLARI,delete ise tablo içindeki kayıtları siler DML KOMUTLARI(Crut) baş harfleri crutun   

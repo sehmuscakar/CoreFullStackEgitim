@@ -1,0 +1,41 @@
+﻿@model GenelBillgiler.Models.Kullanici
+
+@{
+    ViewData["Title"] = "kullanici";
+}
+
+<h1>kullanici</h1>
+
+
+<hr />
+@*  @Model.Ad*@
+
+@using (Html.BeginForm())
+{
+    //model den veri cağırrıyorsak sonu for ile biten helpers ları kullanmamız daha sağlıklı
+ //beginform içinde helpğersları div içinde yerleştirmen lazım yoksa hata verir 
+    <div>
+        Ad:@Html.EditorFor(model=>model.Ad) 
+        <hr />
+        Soyad:@Html.EditorFor(model=>model.Soyad)
+        <hr />
+        Email:@Html.EditorFor(model=>model.Email)
+
+        <hr />
+        Kullanıcı Adı:@Html.EditorFor(model=>model.KullaniciAdi)
+        <hr />
+        Şİfre:@Html.EditorFor(model=>model.Sifre)
+        <br />
+        <input />
+    </div>
+}
+@{
+    @ViewBag.Mesaj
+    <hr />
+    @ViewData["Vdata"]
+    <hr />
+    @TempData["Tdata"]
+}
+
+
+

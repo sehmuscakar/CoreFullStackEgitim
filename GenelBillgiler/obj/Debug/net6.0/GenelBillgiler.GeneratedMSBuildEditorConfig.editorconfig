@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GenelBillgiler
+build_property.RootNamespace = GenelBillgiler
+build_property.ProjectDir = C:\Users\Şehmus\Desktop\Sıfırdan Full stack .Net developer\Asp.Net Core MVC\GenelBillgiler\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Şehmus\Desktop\Sıfırdan Full stack .Net developer\Asp.Net Core MVC\GenelBillgiler
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/DataGondermeleri/Controllertoview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YUdvbmRlcm1lbGVyaVxDb250cm9sbGVydG92aWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/DataGondermeleri/Viewtocontroller.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YUdvbmRlcm1lbGVyaVxWaWV3dG9jb250cm9sbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/HTMLHelpers/HTMLHelperskonusu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFRNTEhlbHBlcnNcSFRNTEhlbHBlcnNrb251c3UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/ModelBinding/Adres.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxCaW5kaW5nXEFkcmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/ModelBinding/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxCaW5kaW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/ModelBinding/kullanici.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxCaW5kaW5nXGt1bGxhbmljaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/ModelValidation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxWYWxpZGF0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/SectionvePartial/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdGlvbnZlUGFydGlhbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/SectionvePartial/partial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdGlvbnZlUGFydGlhbFxwYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/Shared/PartialPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/Shared/_KateegoriPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9LYXRlZWdvcmlQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/Shared/_KateegoriPartial2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9LYXRlZWdvcmlQYXJ0aWFsMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/VeriFormatlama/Veriformatlamakonusu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVyaUZvcm1hdGxhbWFcVmVyaWZvcm1hdGxhbWFrb251c3UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/ViewResult/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld1Jlc3VsdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Şehmus/Desktop/Sıfırdan Full stack .Net developer/Asp.Net Core MVC/GenelBillgiler/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vi1nywf74v

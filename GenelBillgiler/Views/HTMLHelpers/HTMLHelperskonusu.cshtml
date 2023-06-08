@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewData["Title"] = "HTMLHelperskonusu";
+}
+
+<h1>HTMLHelperskonusu</h1>
+
+@Html.ActionLink("isim","HTMLHelperskonusu","HTMLHelpers")
+@{
+    // html helpersler: winforms daki araçlara benzetebilirsin 
+}
+
+<hr />
+
+@Html.CheckBox("CbOnay",true) onaylıyorum 
+
+<hr />
+
+@Html.Editor("txtad")
+
+<hr />
+
+@Html.Hidden("hfgizlielement","değer")
+
+<hr />
+
+@Html.Label("lblad","ürünadı")
+
+<hr />
+
+@Html.TextArea("txtadres","istanbul")
+
+<hr />
+
+@Html.TextBox("txtsoyad","soyadınız")
+
+<hr />
+
+@Html.Password("txtsifre")

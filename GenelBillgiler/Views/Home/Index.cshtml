@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Index2</h1>
+
+@{
+    string isim = "şehmus";// böyle c# kodu yazabiliyorsun
+    // bu blogun dışında html kodları yazıyorsun işte
+
+    @isim
+    ;// böylede view de gösterebiliyorsun
+
+    string[] adlar = new string[] { "şehmus", "yavuz", "ahmet" };
+
+    foreach (var item in adlar)
+    {
+        @(item + " ")
+        // boşuk bırakmak istiyorsan parentez kullanacan syntax
+    }
+}
+
+@isim
+

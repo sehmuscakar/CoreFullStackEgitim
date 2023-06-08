@@ -1,0 +1,30 @@
+﻿@model GenelBillgiler.Models.AnasayfaViewModel // buranın içinde iki model var aslında 
+@{
+    ViewData["Title"] = "Anasayfa View Model Kullanımı";
+}
+
+<h1>Anasayfa View Model Kullanımı</h1>
+
+<h3>Kullanıcı Bilgileri</h3>
+
+<h4>@Model.KullaniciNesnesi.KullaniciAdi</h4>
+<h4>@Model.KullaniciNesnesi.Sifre</h4>
+<h4>@Model.KullaniciNesnesi.Ad</h4>
+<h4>@Model.KullaniciNesnesi.Soyad</h4>
+<h4>@Model.KullaniciNesnesi.Email</h4>
+
+
+<hr />
+
+
+
+<h3>Adres  Bilgileri</h3>
+
+
+<h4>@Model.AdresNesnesi.Sehir</h4>
+<h4>@Model.AdresNesnesi.İlce</h4>
+<h4>@Model.AdresNesnesi.AcıkAdres</h4>
+
+
+
+

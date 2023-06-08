@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewData["Title"] = "Veriformatlamakonusu";
+}
+
+<h1>String format ile formatlama</h1>
+
+<h2>Tarih Formatlama</h2>
+
+@{
+    DateTime tarih = DateTime.Now;
+
+    @("Ayın Günü-dd:"+string.Format("{0:dd}",tarih))// 0:dd ile ayın günü gelir
+    <br />
+
+    @("Haftanın Günü-dddd:" + string.Format("{0:dddd}", tarih))
+    <br />
+    @("Ay MM:" + string.Format("{0:MM}", tarih))
+    <br />
+    @("Yıl- yyyy:" + string.Format("{0:yyyy}", tarih))
+    <br />
+    @("saat- hh:" + string.Format("{0:hh}", tarih))
+    <br />
+    @("dakika- mm:" + string.Format("{0:mm}", tarih))
+    <br />
+    @("saniye- ss:" + string.Format("{0:ss}", tarih))
+    <br />
+  
+    @("kısa saat- t:" + string.Format("{0:t}", tarih))
+    <br />
+    @("kısa tarih- d:" + string.Format("{0:d}", tarih))
+    <br />
+    @("kısa saat + saniye - T:" + string.Format("{0:T}", tarih))
+    <br />
+    @("Uzun Tarih- D:" + string.Format("{0:D}", tarih))
+    <br />
+    @("Uzun Tarih + saat f:" + string.Format("{0:f}", tarih))
+    <br />
+    @("Uzun Tarih + saat + saniye F :" + string.Format("{0:F}", tarih))
+    <br />
+    @("Tarih + saat + dk g :" + string.Format("{0:g}", tarih))
+    <br />
+    @("Tarih + saat + dk + sn G :" + string.Format("{0:G}", tarih))
+    <br />
+
+    @("Gün - Ay - m:" + string.Format("{0:m}", tarih))
+    <br />
+    @("Ay - yıl - y:" + string.Format("{0:y}", tarih))
+    <br />
+
+
+    <h3>Sayı Formatları</h3>
+
+    @("0:C:"+string.Format("{0:C}",10.50))
+    <br />
+    @("0:D3:" + string.Format("{0:D3}", 15))
+    <br />
+    @("0:D5:" + string.Format("{0:D5}", 150))
+    <br />
+    @("0:F1:" + string.Format("{0:F1}", 15.5))
+    <br />
+    @("0:F2:" + string.Format("{0:F2}", 15.5))
+    <br />
+    @("0:F3:" + string.Format("{0:F3}", 15.5))
+    <br />
+    @("0:N:" + string.Format("{0:N}", 1500000))
+    <br />
+    @("0:000000.00:" + string.Format("{0:000000.00}", 15.5))
+    <br />
+    @("0:###.##:" + string.Format("{0:###.##}", 15.551))
+}
+

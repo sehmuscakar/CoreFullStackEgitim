@@ -1,0 +1,13 @@
+Ado.Net nedir görevleri 
+CRUD işlemler neler Ado.net ile ilişkisi
+--çalışırken mutlaka try cath blogu ile çalış çaok önemli 
+--proje githuba yuklerken mutlaka db yedeğini de (back up yaparak) .bak uzantılı alarak yukle
+--WindowsForm Ado.Net ile  crud işlemler 
+--WindowsForm EntityFramwork ile Crud işlemler ->DBfirts modeli ile 
+--Githuba proje yuklerken hangi teknolojiler ile ile yazdığını mutlaka yaz ayrıntılı bir şekilde 
+--Her proje olutuduğunda o proje dosyasına not defteri ekle ve kuyllandığın teknolojileri yaz ki sonradan hatırlayabilesin
+--dbfirst modeli nedir: classlar ve db otomatik gelir
+--Entityframwork nedir
+--code first nedir.:classları ve db leri sen oluşturursun
+
+--254.MVC-Kayıt Arama ve Filtreleme-View İşlemi :ZenCoding eklendtisi html ile  

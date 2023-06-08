@@ -1,0 +1,27 @@
+﻿@model GenelBillgiler.Models.Adres
+@{
+    ViewData["Title"] = "Adres";
+}
+
+<h1>Adres bilgileri</h1>
+
+@using (Html.BeginForm()) //beginform iki sitring paremtre alır 1 incisi action name, ikincisi controller name 
+{
+
+    <div>
+        Şehir:@Html.EditorFor(model=>model.Sehir)
+        <hr />
+        İlçe:@Html.EditorFor(model=>model.İlce)
+        <hr />
+        Açık Adres:@Html.EditorFor(model=>model.AcıkAdres)
+        <hr>
+
+    </div>
+}
+@{// c# kodu yazabiliyoruz büyle blog yaparak
+    @ViewBag.Mesaj
+    <hr />
+    @ViewData["Vdata"]
+    <hr />
+    @TempData["Tdata"]
+}

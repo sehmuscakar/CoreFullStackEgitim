@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewData["Title"] = "MVC ViewResult Çeşitleri";
+}
+
+<h1>MVC ViewResult Çeşitleri</h1>
+
+ActionResult
+
+<hr />
+
+@Html.ActionLink("RedirectResult","Index2");
+
+@{
+    //ilk isim viewda görüleceği isim diğer paremtre ise gideceği action  
+}
+
+<hr />
+
+@Html.ActionLink("RedirectToRouteResult","Index3");
+
+<hr />
+
+PartialViewResult
+<br />
+<h3>Kategori Partial ile Getir</h3>
+
+@Html.Partial("_KateegoriPartial") @*burda normal boş bir  page ekledik __KateegoriPartial adında  sonra bunu çağırdık *@
+
+<hr />
+<h3>Kategorileri Action ile Getir</h3>
+
+@Html.ActionLink("Kategrileri action ile Getir","KategrileriPartiallaGetir") @* burda ilk paremetre view de görünen isim ikincisi ise action ismi  *@
+
+<hr />
+<h3>Kategorileri Model kullanarak ile Getir</h3>
+
+@Html.ActionLink("Kategrileri model partial ile Getir","KategrileriModelPartiallaGetir")
+
+<hr />
+
+FileResult
+
+<hr />
+
+FileStreamResult
+
+<hr />
+
+JavaScriptResult  @*geriye jascript kodu dündüren result çeşidi*@
+
+<hr />
+
+JsontResult @* Json veri gösterim türüdür. programlama dili değil xmal gibi veya daha gelişmiş hali *@
+
+@Html.ActionLink("JsonResult","Index4")
+
+<hr />
+
+ContentResult
+<br />
+@Html.ActionLink("ContentResult","XmlContentResult")
+

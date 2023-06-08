@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Viewtocontroller";
+    SelectListItem[] liste = new SelectListItem[3]
+    {
+        new SelectListItem(){Text="bilgisiyar"},
+        new SelectListItem(){Text="Monitor"},
+        new SelectListItem(){Text="Tablet"},
+
+    };
+
+}
+<h1>View dan controllera veri gönderme  </h1>
+<h1>Viewtocontroller</h1>
+
+@*<div>
+    @using (Html.BeginForm())// form oluşturur 
+    {
+        @Html.TextBox("text1")
+        <hr />
+        @Html.DropDownList("liste",liste)
+        <hr />
+        @Html.CheckBox("cbonay") @("onaylıyorum")
+        <hr />
+    
+    }
+
+</div>*@
+
